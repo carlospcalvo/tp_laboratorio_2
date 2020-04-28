@@ -34,47 +34,23 @@ namespace Entidades
         public string BinarioDecimal(string binario)
         {
             string rta = "Valor invalido.";
-            double num;
-            double aux;
-            double cont = Convert.ToDouble(binario.Length-1);
-            double acumulador = 0;
-            bool flag = false;
-            bool isNumeric = Double.TryParse(binario, out num);
-            
+            bool isNumeric = Int32.TryParse(binario, out int num);
 
-            if (isNumeric == true && num >= 0)
-            { 
-                foreach(char c in binario)
+            if (isNumeric == true)
+            {
+                num = Convert.ToInt32(binario, 2);
+
+                if (num >= 0)
                 {
-                    //toma el valor de un dígito
-                    Double.TryParse(c.ToString(), out aux); 
-                    if (aux == 1)
-                    {
-                        flag = true;
-                        //si ese dígito es 1, suma 2 ^ índice al acumulador (ej: en el último índice suma 2^0 = 1) 
-                        acumulador += Math.Pow(2, cont); 
-                    }
-                    else if (aux ==0)
-                    {
-                        //si el dígito es 0 no hace nada, únicamente mantiene el flag en true
-                        flag = true; 
-                    }
-                    else
-                    {
-                        /* si un dígito es igual o mayor a 2, setea el flag en false 
-                          y rompe el foreach para salir y mostrar que es un valor inválido. */
-                        flag = false; 
-                        break; 
-                    }
-                    cont--;
+                    rta = num.ToString();
                 }
-                if (flag == true)
+                else
                 {
-                    /* si se recorrió el string sin problemas, el acumulador se parsea a string 
-                    para retornarlo como resultado.*/
-                    rta = acumulador.ToString(); 
-                }        
+                    num = Math.Abs(num);
+                    rta = num.ToString();
+                }
             }
+
             return rta;
         }
 
@@ -86,7 +62,7 @@ namespace Entidades
         public string DecimalBinario(string numero)
         {
             string rta;
-            bool isNumeric = Double.TryParse(numero, out Double num);
+            bool isNumeric = Int32.TryParse(numero, out int num);
             if (isNumeric == true)
             {
                 rta = DecimalBinario(num);
@@ -105,18 +81,29 @@ namespace Entidades
         /// <returns> string: notación binaria del número decimal pasado como parámetro </returns>
         public string DecimalBinario(double numero)
         {
-            string rta;
-            long num = (long)numero;
-            
-            if (num >= 0)
+            string rta = "Valor Invalido";
+            int aux = (int)numero;
+            int bin;
+
+            if (aux < 0)
             {
-                //Convierte un int a string pasándolo a base 2 (binario)   
-                rta = Convert.ToString(num, 2); 
+                aux = Math.Abs(aux);
+            }
+            else if (aux > 0)
+            {
+                rta = "";
+                while (aux >= 1)
+                {
+                    bin = aux % 2;
+                    aux /= 2;
+                    rta = (bin.ToString() + rta);
+                }
             }
             else
             {
-                rta = "Valor invalido.";
+                rta = "0";
             }
+
             return rta;
         }
 

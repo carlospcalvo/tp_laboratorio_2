@@ -14,14 +14,6 @@ namespace MiCalculadora
     public partial class FormCalculadora : Form
     {
 
-        #region  Atributos
-
-        public Numero auxiliar = new Numero();
-        public double resultado;
-
-        #endregion
-
-
         #region Constructor
 
         public FormCalculadora()
@@ -31,19 +23,16 @@ namespace MiCalculadora
 
         #endregion
 
-
         #region Eventos de Botones
 
         private void BtnOperar_Click(object sender, EventArgs e)
         {
-            resultado = Operar(txtNumero1.Text, txtNumero2.Text, cmbOperador.Text);
-            this.lblResultado.Text = Convert.ToString(resultado);
+            this.lblResultado.Text = Operar(txtNumero1.Text, txtNumero2.Text, cmbOperador.Text).ToString();
         }
 
         private void BtnLimpiar_Click(object sender, EventArgs e)
         {
             Limpiar();
-            resultado = -1;
         }
 
         private void BtnCerrar_Click(object sender, EventArgs e)
@@ -53,40 +42,17 @@ namespace MiCalculadora
 
         private void BtnConvertirABinario_Click(object sender, EventArgs e)
         {
-            string strResultado = resultado.ToString();
-            this.lblResultado.Text = auxiliar.DecimalBinario(strResultado);
+            Numero auxiliar = new Numero();
+            this.lblResultado.Text = auxiliar.DecimalBinario(this.lblResultado.Text);
         }
 
         private void BtnConvertirADecimal_Click(object sender, EventArgs e)
         {
-            bool isBinary = false;
-            string strResultado = resultado.ToString();
-
-            foreach (char c in strResultado)
-            {
-                if (c == '0' || c == '1')
-                {
-                    isBinary = true;
-                }
-                else
-                {
-                    isBinary = false;
-                    break;
-                }
-            }
-            if (isBinary == true)
-            {
-                strResultado = auxiliar.DecimalBinario(strResultado);
-                this.lblResultado.Text = auxiliar.BinarioDecimal(strResultado);
-            }
-            else
-            {
-                MessageBox.Show("El resultado no es binario.");
-            }
+            Numero auxiliar = new Numero();
+            this.lblResultado.Text = auxiliar.BinarioDecimal(this.lblResultado.Text);
         }
 
         #endregion
-
 
         #region Metodos
 
