@@ -42,7 +42,7 @@ namespace Entidades
         /// <param name="c">Elemento a exponer</param>
         /// <param name="tipo">Tipos de ítems de la lista a mostrar</param>
         /// <returns></returns>
-        public string Mostrar(Estacionamiento c, ETipo tipo)
+        public static string Mostrar(Estacionamiento c, ETipo tipo)
         {
             StringBuilder sb = new StringBuilder();
             sb.AppendFormat("Tenemos {0} lugares ocupados de un total de {1} disponibles", c.vehiculos.Count, c.espacioDisponible);
@@ -134,7 +134,7 @@ namespace Entidades
         /// <returns></returns>
         public override string ToString()
         {
-            return this.Mostrar(this, ETipo.Todos);
+            return Mostrar(this, ETipo.Todos);
         }
 
         #endregion

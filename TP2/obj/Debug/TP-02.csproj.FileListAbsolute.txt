@@ -41,3 +41,13 @@ C:\Users\carlo\Desktop\TP2\obj\Debug\TP-02.csproj.CoreCompileInputs.cache
 C:\Users\carlo\Desktop\TP2\obj\Debug\TP-02.csproj.CopyComplete
 C:\Users\carlo\Desktop\TP2\obj\Debug\TP-02.exe
 C:\Users\carlo\Desktop\TP2\obj\Debug\TP-02.pdb
+C:\Users\carlo\Desktop\UTN\Programacion II\tp_laboratorio_2\TP2\bin\Debug\TP-02.exe.config
+C:\Users\carlo\Desktop\UTN\Programacion II\tp_laboratorio_2\TP2\bin\Debug\TP-02.exe
+C:\Users\carlo\Desktop\UTN\Programacion II\tp_laboratorio_2\TP2\bin\Debug\TP-02.pdb
+C:\Users\carlo\Desktop\UTN\Programacion II\tp_laboratorio_2\TP2\bin\Debug\Entidades.dll
+C:\Users\carlo\Desktop\UTN\Programacion II\tp_laboratorio_2\TP2\bin\Debug\Entidades.pdb
+C:\Users\carlo\Desktop\UTN\Programacion II\tp_laboratorio_2\TP2\obj\Debug\TP-02.csprojAssemblyReference.cache
+C:\Users\carlo\Desktop\UTN\Programacion II\tp_laboratorio_2\TP2\obj\Debug\TP-02.csproj.CoreCompileInputs.cache
+C:\Users\carlo\Desktop\UTN\Programacion II\tp_laboratorio_2\TP2\obj\Debug\TP-02.csproj.CopyComplete
+C:\Users\carlo\Desktop\UTN\Programacion II\tp_laboratorio_2\TP2\obj\Debug\TP-02.exe
+C:\Users\carlo\Desktop\UTN\Programacion II\tp_laboratorio_2\TP2\obj\Debug\TP-02.pdb
