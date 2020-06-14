@@ -1,0 +1,26 @@
+C:\Users\carlo\source\repos\TP3 v2\Clases Instanciables\bin\Debug\Clases Instanciables.dll
+C:\Users\carlo\source\repos\TP3 v2\Clases Instanciables\bin\Debug\Clases Instanciables.pdb
+C:\Users\carlo\source\repos\TP3 v2\Clases Instanciables\bin\Debug\Clases Abstractas.dll
+C:\Users\carlo\source\repos\TP3 v2\Clases Instanciables\bin\Debug\Excepciones.dll
+C:\Users\carlo\source\repos\TP3 v2\Clases Instanciables\bin\Debug\Clases Abstractas.pdb
+C:\Users\carlo\source\repos\TP3 v2\Clases Instanciables\bin\Debug\Excepciones.pdb
+C:\Users\carlo\source\repos\TP3 v2\Clases Instanciables\obj\Debug\Clases Instanciables.csprojAssemblyReference.cache
+C:\Users\carlo\source\repos\TP3 v2\Clases Instanciables\obj\Debug\Clases Instanciables.csproj.CoreCompileInputs.cache
+C:\Users\carlo\source\repos\TP3 v2\Clases Instanciables\obj\Debug\Clases Instanciables.csproj.CopyComplete
+C:\Users\carlo\source\repos\TP3 v2\Clases Instanciables\obj\Debug\Clases Instanciables.dll
+C:\Users\carlo\source\repos\TP3 v2\Clases Instanciables\obj\Debug\Clases Instanciables.pdb
+C:\Users\carlo\source\repos\TP3 v2\Clases Instanciables\bin\Debug\Archivos.dll
+C:\Users\carlo\source\repos\TP3 v2\Clases Instanciables\bin\Debug\Archivos.pdb
+C:\Users\carlo\tp_laboratorio_2\TP3\Clases Instanciables\bin\Debug\Clases Instanciables.dll
+C:\Users\carlo\tp_laboratorio_2\TP3\Clases Instanciables\bin\Debug\Clases Instanciables.pdb
+C:\Users\carlo\tp_laboratorio_2\TP3\Clases Instanciables\bin\Debug\Archivos.dll
+C:\Users\carlo\tp_laboratorio_2\TP3\Clases Instanciables\bin\Debug\Clases Abstractas.dll
+C:\Users\carlo\tp_laboratorio_2\TP3\Clases Instanciables\bin\Debug\Excepciones.dll
+C:\Users\carlo\tp_laboratorio_2\TP3\Clases Instanciables\bin\Debug\Archivos.pdb
+C:\Users\carlo\tp_laboratorio_2\TP3\Clases Instanciables\bin\Debug\Clases Abstractas.pdb
+C:\Users\carlo\tp_laboratorio_2\TP3\Clases Instanciables\bin\Debug\Excepciones.pdb
+C:\Users\carlo\tp_laboratorio_2\TP3\Clases Instanciables\obj\Debug\Clases Instanciables.csprojAssemblyReference.cache
+C:\Users\carlo\tp_laboratorio_2\TP3\Clases Instanciables\obj\Debug\Clases Instanciables.csproj.CoreCompileInputs.cache
+C:\Users\carlo\tp_laboratorio_2\TP3\Clases Instanciables\obj\Debug\Clases Instanciables.csproj.CopyComplete
+C:\Users\carlo\tp_laboratorio_2\TP3\Clases Instanciables\obj\Debug\Clases Instanciables.dll
+C:\Users\carlo\tp_laboratorio_2\TP3\Clases Instanciables\obj\Debug\Clases Instanciables.pdb

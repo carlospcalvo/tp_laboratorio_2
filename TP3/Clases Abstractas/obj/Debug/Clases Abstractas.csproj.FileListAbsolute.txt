@@ -1,0 +1,18 @@
+C:\Users\carlo\source\repos\TP3 v2\Clases Abstractas\bin\Debug\Clases Abstractas.dll
+C:\Users\carlo\source\repos\TP3 v2\Clases Abstractas\bin\Debug\Clases Abstractas.pdb
+C:\Users\carlo\source\repos\TP3 v2\Clases Abstractas\bin\Debug\Excepciones.dll
+C:\Users\carlo\source\repos\TP3 v2\Clases Abstractas\bin\Debug\Excepciones.pdb
+C:\Users\carlo\source\repos\TP3 v2\Clases Abstractas\obj\Debug\Clases Abstractas.csprojAssemblyReference.cache
+C:\Users\carlo\source\repos\TP3 v2\Clases Abstractas\obj\Debug\Clases Abstractas.csproj.CoreCompileInputs.cache
+C:\Users\carlo\source\repos\TP3 v2\Clases Abstractas\obj\Debug\Clases Abstractas.csproj.CopyComplete
+C:\Users\carlo\source\repos\TP3 v2\Clases Abstractas\obj\Debug\Clases Abstractas.dll
+C:\Users\carlo\source\repos\TP3 v2\Clases Abstractas\obj\Debug\Clases Abstractas.pdb
+C:\Users\carlo\tp_laboratorio_2\TP3\Clases Abstractas\bin\Debug\Clases Abstractas.dll
+C:\Users\carlo\tp_laboratorio_2\TP3\Clases Abstractas\bin\Debug\Clases Abstractas.pdb
+C:\Users\carlo\tp_laboratorio_2\TP3\Clases Abstractas\bin\Debug\Excepciones.dll
+C:\Users\carlo\tp_laboratorio_2\TP3\Clases Abstractas\bin\Debug\Excepciones.pdb
+C:\Users\carlo\tp_laboratorio_2\TP3\Clases Abstractas\obj\Debug\Clases Abstractas.csprojAssemblyReference.cache
+C:\Users\carlo\tp_laboratorio_2\TP3\Clases Abstractas\obj\Debug\Clases Abstractas.csproj.CoreCompileInputs.cache
+C:\Users\carlo\tp_laboratorio_2\TP3\Clases Abstractas\obj\Debug\Clases Abstractas.csproj.CopyComplete
+C:\Users\carlo\tp_laboratorio_2\TP3\Clases Abstractas\obj\Debug\Clases Abstractas.dll
+C:\Users\carlo\tp_laboratorio_2\TP3\Clases Abstractas\obj\Debug\Clases Abstractas.pdb
