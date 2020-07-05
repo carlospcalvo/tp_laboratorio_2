@@ -41,6 +41,7 @@ namespace Formulario
         private void btnAgregar_Click(object sender, EventArgs e)
         {
             Paquete aux = new Paquete(txtDireccion.Text, mtxtTrackingID.Text);
+            //suscribo al evento
             aux.InformaEstado += new Paquete.DelegadoEstado(paq_InformaEstado);
             try
             {

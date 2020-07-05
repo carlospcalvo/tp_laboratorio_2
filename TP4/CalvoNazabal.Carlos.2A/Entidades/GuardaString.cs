@@ -11,6 +11,7 @@ namespace Entidades
     {
         public static bool Guardar(this string texto, string archivo)
         {
+            bool aux = false;
             string path = Environment.GetFolderPath(Environment.SpecialFolder.Desktop);
 
             try
@@ -19,12 +20,14 @@ namespace Entidades
                 {
                     sw.WriteLine(texto);
                 }
-                return true;
+                aux = true;
             }
             catch (Exception)
             {
-                return false;
+                throw new Exception("No se pudo guardar el archivo de texto.");
             }
+
+            return aux;
         }
 
 

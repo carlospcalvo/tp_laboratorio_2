@@ -26,21 +26,22 @@ namespace Entidades
 
             try
             {
-                int filasAfectadas = 0;
+                int filasInsertadas = 0;
                 
                 comando.CommandText = "INSERT INTO [correo-sp-2017].[dbo].[Paquetes] (direccionEntrega, trackingID, alumno) VALUES (" + "'" + p.DireccionEntrega + "','" + p.TrackingID +"','" + "Carlos Calvo Nazabal')";
 
                 conexion.Open();
 
-                filasAfectadas = comando.ExecuteNonQuery();
+                filasInsertadas = comando.ExecuteNonQuery();
 
-                if (filasAfectadas == 0)
+                if (filasInsertadas == 0)
                 {
                     aux = false;
                 }
             }
             catch(Exception)
             {
+                throw new Exception("No se pudo agregar el paquete a la base de datos.");
             }
             finally
             {

@@ -59,8 +59,8 @@ namespace Entidades
 
         public Paquete(string direccionEntrega, string trackingID)
         {
-            this.direccionEntrega = direccionEntrega;
-            this.trackingID = trackingID;
+            this.DireccionEntrega = direccionEntrega;
+            this.TrackingID = trackingID;
         }
 
         public string MostrarDatos(IMostrar<Paquete> elemento)
@@ -119,8 +119,6 @@ namespace Entidades
                 throw new Exception("No se pudo agregar el paquete a la base de datos.", ex);
             }
         }
-
-
 
         public enum EEstado
         {
