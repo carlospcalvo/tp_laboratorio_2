@@ -1,0 +1,12 @@
+C:\Users\carlo\source\repos\TP3 v2\Excepciones\bin\Debug\Excepciones.dll
+C:\Users\carlo\source\repos\TP3 v2\Excepciones\bin\Debug\Excepciones.pdb
+C:\Users\carlo\source\repos\TP3 v2\Excepciones\obj\Debug\Excepciones.csprojAssemblyReference.cache
+C:\Users\carlo\source\repos\TP3 v2\Excepciones\obj\Debug\Excepciones.csproj.CoreCompileInputs.cache
+C:\Users\carlo\source\repos\TP3 v2\Excepciones\obj\Debug\Excepciones.dll
+C:\Users\carlo\source\repos\TP3 v2\Excepciones\obj\Debug\Excepciones.pdb
+C:\Users\carlo\Desktop\UTN\Programacion II\tp_laboratorio_2\RecuperatoriosTP\TP3\Excepciones\bin\Debug\Excepciones.dll
+C:\Users\carlo\Desktop\UTN\Programacion II\tp_laboratorio_2\RecuperatoriosTP\TP3\Excepciones\bin\Debug\Excepciones.pdb
+C:\Users\carlo\Desktop\UTN\Programacion II\tp_laboratorio_2\RecuperatoriosTP\TP3\Excepciones\obj\Debug\Excepciones.csprojAssemblyReference.cache
+C:\Users\carlo\Desktop\UTN\Programacion II\tp_laboratorio_2\RecuperatoriosTP\TP3\Excepciones\obj\Debug\Excepciones.csproj.CoreCompileInputs.cache
+C:\Users\carlo\Desktop\UTN\Programacion II\tp_laboratorio_2\RecuperatoriosTP\TP3\Excepciones\obj\Debug\Excepciones.dll
+C:\Users\carlo\Desktop\UTN\Programacion II\tp_laboratorio_2\RecuperatoriosTP\TP3\Excepciones\obj\Debug\Excepciones.pdb
