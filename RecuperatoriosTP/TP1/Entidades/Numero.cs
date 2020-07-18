@@ -22,10 +22,12 @@ namespace Entidades
                 this.numero = this.ValidarNumero(value); 
             }
         }
-
+        
         #endregion
-
+        
         #region Métodos
+
+
         /// <summary>
         /// Convierte un string que representa un número binario en un string que representa su notación decimal.
         /// </summary>
@@ -34,7 +36,8 @@ namespace Entidades
         public string BinarioDecimal(string binario)
         {
             string rta = "Valor invalido.";
-            bool isNumeric = Int32.TryParse(binario, out int num);
+            int num;
+            bool isNumeric = EsBinario(binario);
 
             if (isNumeric == true)
             {
@@ -69,7 +72,7 @@ namespace Entidades
             }
             else
             {
-                rta = "Valor invalido.";
+                rta = "Valor inválido.";
             }
             return rta;
         }
@@ -89,22 +92,41 @@ namespace Entidades
             {
                 aux = Math.Abs(aux);
             }
-            else if (aux > 0)
+
+            if (aux >= 0)
             {
                 rta = "";
-                while (aux >= 1)
+                
+                if(aux == 0)
                 {
-                    bin = aux % 2;
-                    aux /= 2;
-                    rta = (bin.ToString() + rta);
+                    rta = "0";
+                }
+                else
+                {
+                    while (aux >= 1)
+                    {
+                        bin = aux % 2;
+                        aux /= 2;
+                        rta = (bin.ToString() + rta);
+                    }
+                }                
+            }
+            return rta;
+        }
+
+        private bool EsBinario(string numero)
+        {
+            bool aux = true;
+
+            foreach(char c in numero)
+            {
+                if(!(c == '1' || c == '0'))
+                {
+                    aux = false;
+                    break;
                 }
             }
-            else
-            {
-                rta = "0";
-            }
-
-            return rta;
+            return aux;
         }
 
         #endregion
@@ -159,8 +181,7 @@ namespace Entidades
         /// <returns> double: si la cadena era un numero, lo devuelve como double; si no, devuelve 0 </returns>
         private double ValidarNumero(string strNumero)
         {
-            double num;
-            double.TryParse(strNumero, out num);
+            double.TryParse(strNumero, out double num);
             return num;
         }
 
